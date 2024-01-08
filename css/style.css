@@ -79,16 +79,13 @@ ul {
     line-height: 30px;
 }
 
-
-
-
-
 .banner-img img {
     width: 100%;
     background-size: cover;
 }
 
 /* Header Part End */
+
 /* Feature Part Start */
 .common-head {
     margin-left: auto;
@@ -249,7 +246,6 @@ ul {
     color: #E55473;
     font-size: 40px;
     font-weight: 800;
-
 }
 
 .deal-text p {
@@ -261,11 +257,7 @@ ul {
     line-height: 30px;
 }
 
-
 /* Deal Part Start */
-
-
-
 
 /* Instagram Part Start */
 #instragram {
@@ -281,7 +273,6 @@ ul {
     width: 290px;
     height: 35d0px;
 }
-
 /* Instagram Part Start */
 
 /* Latest Deal Part Start */
@@ -313,8 +304,6 @@ ul {
     font-weight: 400;
     line-height: 30px;
 }
-
-
 
 input {
     padding: 20px 0px 20px 20px;
@@ -360,6 +349,41 @@ input {
 /* Latest Deal Part Start */
 
 /* Footer Part Start */
+#footer {
+    margin-top: 100px;
+    padding: 128px 470px;
+    background: #111010;
+}
 
+.foot-text{
+    width: 590px;
+    text-align: center;
+}
 
+.foot-text h1 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.foot-text span {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.foot-text .p-text {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.foot-text .copyright {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
 /* Footer Part Start */
