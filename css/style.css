@@ -90,7 +90,7 @@ ul {
 
 /* Header Part End */
 /* Feature Part Start */
-.feature-common-head {
+.common-head {
     margin-left: auto;
     margin-right: auto;
     width: 590px;
@@ -98,7 +98,7 @@ ul {
     text-align: center;
 }
 
-.feature-common-head h1 {
+.common-head h1 {
     margin-bottom: 0px;
     color: #272727;
     font-family: Lato;
@@ -106,7 +106,7 @@ ul {
     font-weight: 800;
 }
 
-.feature-common-head p {
+.common-head p {
     margin-top: 20px;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -194,29 +194,172 @@ ul {
     line-height: 35px;
     text-decoration-line: underline;
 }
-/* Second Section Start */
-#service{
+
+/* Support Part Start */
+
+#support {
+    margin-top: 150px;
+}
+
+.support-content {
+    padding: 86px 146px 86px 146px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.support-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.support-col p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* Deal Part Start */
+#deal-off {
     margin-top: 100px;
-    margin-bottom: 100px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deal-content {
+    padding: 100px 100px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal-text {
+    width: 594px;
+}
+
+.deal-text h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-text h1 span {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.deal-text p {
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* Deal Part Start */
+
+
+
+
+/* Instagram Part Start */
+#instragram {
+    margin-top: 100px;
+}
+
+.ins-img {
+    margin-top: 40px;
+}
+
+.ins-img img {
+    margin-left: 10px;
+    width: 290px;
+    height: 35d0px;
+}
+
+/* Instagram Part Start */
+
+/* Latest Deal Part Start */
+#latest-deal {
+    margin-top: 100px;
+}
+
+.latest-content {
+    position: relative;
+    padding: 120px 285px 200px;
+    background-image: url(../images/Rectangle\ 9.png);
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.latest-text h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-text p {
+    margin-top: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 
 
+input {
+    padding: 20px 0px 20px 20px;
+    position: absolute;
+    top: 193px;
+    left: 225px;
+    margin-top: 50px;
+    margin-right: 0px;
+    width: 565px;
+    height: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+}
 
-/* Second Section Start */
+.button {
+    position: absolute;
+    top: 218px;
+    right: 232px;
+    margin-top: 25px;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.btn-primary:hover {
+    background: #58333b;
+}
+
+/* Latest Deal Part Start */
+
+/* Footer Part Start */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Feature Part End */
+/* Footer Part Start */
